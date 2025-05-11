@@ -1,0 +1,14 @@
+name: quantum-opt
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - qiskit==2.0.0
+      - qiskit-aer
+      - scikit-learn
+      - matplotlib
+      - jupyter
